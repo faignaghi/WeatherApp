@@ -7,7 +7,7 @@ from .models import City
 
 def index(request):
     API_KEY = config("API_KEY")
-    city = "Chemnitz"
+    city = "Berlin"
     u_city = request.POST.get("name")
     
     if u_city:
